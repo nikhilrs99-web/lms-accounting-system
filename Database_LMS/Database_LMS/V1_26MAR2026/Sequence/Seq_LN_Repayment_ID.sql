@@ -1,0 +1,17 @@
+USE [GS_DLP_LMS]
+GO
+
+USE [GS_DLP_LMS]
+GO
+
+/****** Object:  Sequence [dbo].[Seq_LN_Repayment_ID]    Script Date: 16-03-2026 12:29:39 ******/
+CREATE SEQUENCE [dbo].[Seq_LN_Repayment_ID] 
+ AS [bigint]
+ START WITH 1
+ INCREMENT BY 1
+ MINVALUE -9223372036854775808
+ MAXVALUE 9223372036854775807
+ CACHE  50 
+GO
+
+

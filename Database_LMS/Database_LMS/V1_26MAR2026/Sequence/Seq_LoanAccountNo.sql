@@ -1,0 +1,17 @@
+USE [GS_DLP_LMS]
+GO
+
+USE [GS_DLP_LMS]
+GO
+
+/****** Object:  Sequence [dbo].[Seq_LoanAccountNo]    Script Date: 16-03-2026 12:29:44 ******/
+CREATE SEQUENCE [dbo].[Seq_LoanAccountNo] 
+ AS [bigint]
+ START WITH 1
+ INCREMENT BY 1
+ MINVALUE -9223372036854775808
+ MAXVALUE 9223372036854775807
+ NO CACHE 
+GO
+
+
