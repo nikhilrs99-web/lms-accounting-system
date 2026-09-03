@@ -117,10 +117,10 @@ GEMINI_API_KEY="your-google-gemini-api-key"
 
 ## 📸 Application Screenshots
 
-*(We are waiting to upload the official high-quality UI screenshots showing the Dashboard and AI Validation in action!)*
+## 📸 Application Screenshots
 
-- **AI Anomaly Detection (Red Tooltips):** 
-  ![AI Validator Tooltip](docs/ai_validation_success.png)
+- **Main Dashboard & Simulation Setup:** 
+  ![Dashboard](docs/dashboard.png)
 
 ---
 
