@@ -115,15 +115,6 @@ GEMINI_API_KEY="your-google-gemini-api-key"
 
 ---
 
-## 📸 Application Screenshots
-
-## 📸 Application Screenshots
-
-- **Main Dashboard & Simulation Setup:** 
-  ![Dashboard](docs/dashboard.png)
-
----
-
 ## 🚧 Known Limitations / Future Improvements
 *   **Pagination:** Currently, massive ResultSets are dumped into a scrollable view. Virtualized row rendering (e.g., `ag-grid`) should be introduced for datasets exceeding 10,000 rows.
 *   **Database Independence:** The backend heavily relies on SQL Server's proprietary `BEGIN TRAN ... ROLLBACK` behaviors for simulations. Porting to PostgreSQL would require rewriting the core orchestration script.
